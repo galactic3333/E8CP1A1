@@ -1,8 +1,10 @@
 def method1(arg)
   file = File.open(arg, 'r')
-  movies = file.readlines
+  texto = file.read
   file.close
-  print movies.length
+
+  palabras = texto.split(' ').map(&:strip)
+  print palabras.length
 end
 
 method1('peliculas.txt')
