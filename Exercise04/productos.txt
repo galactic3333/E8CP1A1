@@ -3,3 +3,5 @@ Producto2, 20, 0, 3
 Producto3, 4, 8, 0
 Producto8, 1, 2, NR
 Producto12, NR, 2, NR
+Producto16, 25, 0, 12
+Producto154, 454, 54, 154
